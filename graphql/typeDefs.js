@@ -5,7 +5,7 @@ type User {
     id: ID!
     login: String!
     homeFloor: Int
-    avatarUrl: String!
+    avatarUrl: String
 }
 
 input UserInput {
